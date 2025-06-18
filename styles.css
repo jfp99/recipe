@@ -1,4 +1,4 @@
-/* File: styles.css */
+
 :root {
 --white: hsl(0, 0%, 100%);
 --stone-100: hsl(30, 54%, 90%);
@@ -144,9 +144,6 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.separator {
-border: 1px solid black;
-}
 
 .nutrition {
 display: flex;
@@ -188,7 +185,6 @@ font-style: italic;
 .instructions li::marker {
 color: var(--rose-800);
 }
- 
 
 .nutrition h2 {
     text-align: center;
@@ -223,12 +219,10 @@ color: var(--brown-800); /* Using your brown color for values */
 font-weight: 700; /* Makes numbers stand out more */
 }
 
-/* Optional: Add hover effect for better interactivity */
 .nutrition-table tr:hover {
 background-color: var(--rose-50); /* Very subtle pink highlight */
 }
 
-/* For better mobile responsiveness */
 @media (max-width: 600px) {
 .nutrition-table th, 
 .nutrition-table td {
