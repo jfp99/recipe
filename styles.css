@@ -32,6 +32,7 @@ margin-bottom: 1rem;
 h2 {
 font-size: 2rem;    
 margin-bottom: 0.75rem;
+color: var(--brown-800)
 }
 h3 {
 font-size: 1.5rem;
@@ -190,16 +191,15 @@ color: var(--rose-800);
     text-align: center;
 }
 
-/* Improved Nutrition Table Styles */
 .nutrition-table {
 width: 100%;
-border-collapse: separate; /* Changed from collapse for better spacing */
+border-collapse: separate; 
 border-spacing: 0;
 margin: 1rem 0;
 }
 
 .nutrition-table tr:not(:last-child) {
-border-bottom: 1px solid var(--stone-150); /* Using your color variable */
+border-bottom: 1px solid var(--stone-150); 
 }
 
 .nutrition-table th, 
@@ -210,13 +210,13 @@ text-align: left;
 
 .nutrition-table th {
 font-weight: 600;
-color: var(--stone-900); /* Darker text for headers */
-width: 50%; /* Makes columns equal width */
+color: var(--stone-900);
+width: 50%; 
 }
 
 .nutrition-table td {
-color: var(--brown-800); /* Using your brown color for values */
-font-weight: 700; /* Makes numbers stand out more */
+color: var(--brown-800);
+font-weight: 700; 
 }
 
 .nutrition-table tr:hover {
